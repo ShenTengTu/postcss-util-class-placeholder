@@ -1,6 +1,6 @@
 var postcss = require('postcss')
-
-module.exports = postcss.plugin('postcss-test-plugin', function (opts) {
+var pluinName = 'postcss-util-class-placeholder'
+module.exports = postcss.plugin(pluinName, function (opts) {
   if (typeof opts !== 'object') opts = { files: [] }
   if (!Array.isArray(opts.files)) opts.files = []
   return function (root) {

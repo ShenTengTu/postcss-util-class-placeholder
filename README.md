@@ -3,8 +3,8 @@
 A simple [PostCSS] plugin that add `Placeholder` syntax (SASS-like) behind the utility class selector.
 
 [PostCSS]: https://github.com/postcss/postcss
-[ci-img]:  https://travis-ci.org/ShenTengTu/postcss-test-plugin.svg
-[ci]:      https://travis-ci.org/ShenTengTu/postcss-test-plugin
+[ci-img]:  https://travis-ci.com/ShenTengTu/postcss-util-class-placeholder.svg
+[ci]:      https://travis-ci.com/ShenTengTu/postcss-util-class-placeholder
 
 ```css
 .hover\:text-light-grey:hover {
