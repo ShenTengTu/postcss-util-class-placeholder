@@ -1,6 +1,6 @@
 {
   "name": "postcss-util-class-placeholder",
-  "version": "0.1.1",
+  "version": "0.2.0",
   "description": "A simple PostCSS plugin that change utility class selector ato `Placeholder` syntax (SASS-like).",
   "keywords": [
     "postcss",
