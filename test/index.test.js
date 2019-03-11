@@ -5,8 +5,7 @@ var path = require('path')
 var plugin = require('../')
 
 var inputCSS = '.hover\\:text-light-grey:hover {\n  color: #666;\n}\n'
-var outputCSS = '.hover\\:text-light-grey:hover, ' +
-'%hover\\:text-light-grey:hover {\n  color: #666;\n}\n'
+var outputCSS = '%hover\\:text-light-grey:hover {\n  color: #666;\n}\n'
 
 function readFile (file) {
   return new Promise(function (resolve, reject) {

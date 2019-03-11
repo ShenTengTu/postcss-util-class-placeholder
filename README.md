@@ -1,6 +1,6 @@
 # PostCSS Util Class Placeholder [![Build Status][ci-img]][ci]
 
-A simple [PostCSS] plugin that add `Placeholder` syntax (SASS-like) behind the utility class selector.
+A simple [PostCSS] plugin that change utility class selector to `Placeholder` syntax (SASS-like).
 
 [PostCSS]: https://github.com/postcss/postcss
 [ci-img]:  https://travis-ci.com/ShenTengTu/postcss-util-class-placeholder.svg
@@ -13,7 +13,7 @@ A simple [PostCSS] plugin that add `Placeholder` syntax (SASS-like) behind the u
 ```
 
 ```css
-.hover\:text-light-grey:hover, %hover\:text-light-grey:hover {
+%hover\:text-light-grey:hover {
   color: #666;
 }
 ```

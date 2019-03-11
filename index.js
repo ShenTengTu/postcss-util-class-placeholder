@@ -14,7 +14,7 @@ module.exports = postcss.plugin(pluinName, function (opts) {
 
   function process (rule) {
     if (/^\.[-:\w\d\\]+$/.test(rule.selector)) {
-      rule.selector = rule.selector + ', ' + rule.selector.replace('.', '%')
+      rule.selector = rule.selector.replace('.', '%')
     }
   }
 })
